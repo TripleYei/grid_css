@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grid</title>
+
+    <style>
+     
+      body { padding: 0; margin: 0; }
+      * { box-sizing: border-box; font-size: 25px; }
+
+      
+      .container {
+        border: 2px solid #555;
+        padding: 8px;
+        min-height: 100vh;
+      }
+      header {
+        border: 2px solid #450920; 
+        background-color: #F9DBBD; 
+      }
+      aside {
+        border: 2px solid #450920; 
+        background-color: #FFA5AB; 
+      }
+      main {
+        border: 2px solid #450920; 
+        background-color: #DA627D; 
+      }
+      footer {
+        border: 2px solid #450920;
+        background-color: #A53860; 
+      }
+
+      .container {
+        display: grid; 
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header></header>
+      <aside></aside>
+      <main></main>
+      <footer></footer>
+    </div>
+  </body>
+</html>
